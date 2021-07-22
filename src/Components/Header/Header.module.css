@@ -1,0 +1,86 @@
+.header{
+    background-color: #d2d1d1;
+    background-image: linear-gradient(315deg, #ffffff 74%, #6a7170 74%);
+    height: 100px;
+    box-shadow: 2px 2px 15px grey, -2px -2px 15px lightblue;
+    margin-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    }
+    .change{
+     width: 50%;
+     padding:10px 20px;
+     border-top-left-radius:20px;
+     border-bottom-left-radius:20px;
+     margin-top: 20px;
+     margin-left: 20px;
+     box-shadow: 2px 2px 4px grey;
+     border-color: none;
+     
+    }
+    .click{
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: white;
+        box-shadow: 2px 2px 4px grey;
+        border-top-right-radius:20px;
+        border-bottom-right-radius:20px;
+        width: 100px;
+
+    }
+    .click:hover{
+        background-color: #c7c7c7;
+        background-image: linear-gradient(315deg, #eaeaea 0%, #6a7170 74%);;
+        color: white;
+    }
+    .change:focus, .click:focus{
+        outline: none;
+    }
+    
+    
+
+    .userLink{
+        text-decoration: none;
+        color: black;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        left: 10px;
+        margin-top: 20px;
+        padding: 8px 16px;
+        box-shadow: 2px 2px 4px grey;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        width: 70px;
+        border: 2px solid black;
+
+    }
+
+    .userLink:hover{
+        background-color: #c7c7c7;
+        background-image: linear-gradient(315deg, #eaeaea 0%, #6a7170 74%);
+        color:white;
+    }
+
+    .repoLink{
+        text-decoration: none;
+        color: black;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        left: 110px;
+        margin-top: 20px;
+        padding: 8px 16px;
+        box-shadow: 2px 2px 4px grey;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        width: 70px;
+        border: 2px solid black;
+
+
+    }
+    .repoLink:hover{
+        background-color: #c7c7c7;
+        background-image: linear-gradient(315deg, #eaeaea 0%, #6a7170 74%);
+        color: white;
+    }
+   
