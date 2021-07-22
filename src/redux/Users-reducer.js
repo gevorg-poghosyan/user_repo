@@ -15,7 +15,7 @@ const usersReducer = (state = initialState, action) => {
             tempState.data = action.payload.users.items;
             tempState.isFetching = false
             tempState.total_count = action.payload.users.total_count
-        
+        console.log(tempState)
             return tempState
         } 
         case USERS_ACTION_TYPES.USERS_GET_SINGLE_REQUEST_SUCCESS: {
